@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Hind+Siliguri:300,regular,500,600,700);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    display: flex;
+    font-family: Hind Siliguri;
+}
+
+.row{ display: flex }
+.column{
+    display: flex;
+    flex-direction: column;
+}
+span.redColorText{
+    color: #C72535;
+    opacity: 0.6;
+}
+span.cyanSelectText{
+    color: #247CC0;
+    background-color: #247cc021;
+}
+span.crossedOutText{
+    text-decoration: line-through;
+}
+span.grayColorText{
+    color: #030D15;
+    opacity: 0.5;
+}

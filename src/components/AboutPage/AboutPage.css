@@ -1,0 +1,47 @@
+.root-AboutPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh 0;
+    background: linear-gradient(to bottom, #FFFF 15%, #f3f3f3 0%);
+    gap: 80px;
+
+    & img{
+        height: 70vh;
+    }
+    & .column{
+        width: 30%;
+    }
+    & span{
+        height: 10px;
+        font-size: 15px;
+    }
+    & h1{ /* title */
+        font-size: 50px;
+    }
+    & p{ /* text */
+        font-size: 22px;
+        opacity: 0.6;
+    }
+    & .textContainer-AboutPage{
+        margin: 6vh 0;
+    }
+    & .advantagesContainer-AboutPage{
+        margin-top: 5vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        & .row{
+            align-items: center;
+            gap: 10px;
+
+            & h6{
+                font-size: 20px;
+                font-weight: 400;
+
+            }
+        }
+    }
+    
+}
